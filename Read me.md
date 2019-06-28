@@ -49,40 +49,7 @@ used in data cleaning that is removing the special characters, html tags, extra 
 			The models performances have been tuned with the help of Min_Max scalar form of normalization. Once the models are trained we test our model with the test data and perform various metric evaluation technique to find the best fit model.
 		4.d importing train_test_split from sklearn.model_selection, assigning the values for x and y variables and splitting the variables in to train and test data in the ratio of 90:10 so that we can train our model with 90% of data set. ML model learns from the training data more the training data more the accuracy of the model.
  
-		4.e The following are the metric evaluation technique which I have been used
-Confusion Matrix For Visual Representation(Logistic Regression):
- 
-		By importing the Confusion matrix from the sklearn.metrics we are assigning the X_test predicted value for a new variable y_pred and y_test as y_true now we are forming an confusion matrix with this new assigned variables. With the help of seaborn    heatmap plotting the confusion matrix.
-Sample o/p:
- 
-0-	Male 1- Female.
-Accuracy, Confusion Matrix Representation, Classification Report(Logistic Regression): To find the accuracy we have to check the score of our test data. For confusion matrix x_test predicted by the algorithm and the y_test value is passed to obtain the confusion matrix. Similarly to the Classification report.
- 
-5.	Analysis Of Result:
-Logistic Regression  provides an highest accuracy of 63.57%. By using python seaborn module I plotted heatmap for confusion_matrix. Which is evident how many is true prediction and false prediction. 
-Logistic Regression Algorithm:
- 
-Has an accuracy of 63.57%
-Random Forest Algorithm:
- 
-Has an accuracy of 62.17%
-
-
-
-
-Gaussian Navie Bayies Algorithm:
- 
-Has an accuracy of 63.27%
-6.	Applying classifier to conversational data: 
- 
-Reading the text file and assigning the text file to the variable data. Splitting the data names and text from the given Mar11_GroupD.txt data set and assigning them to an empty list l[] and k[]. Creating a list of male and female list. Feature extraction like Tokenizing, stopword, lemmatizing is done in the Mar11_GroupD.txt data set
-  
-Creating an data frame including names, text, and gender. Assigning 0-male and 1-female. Data cleaning and preprocessing has done for the new data frame.
- 
-Then fitting the data in to the Logistic Regression model since it’s the best fit model and when the model is tested it gives an accuracy of 73%.
- 
-
-
+		
 
 
 
