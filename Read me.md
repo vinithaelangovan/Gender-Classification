@@ -1,9 +1,8 @@
 OBJECTIVE:
-		To predict the gender in the given data set (Twitter data set) using  various feature engineering technique and machine learning model.
+		
+To predict the gender in the given data set (Twitter data set) using  various feature engineering technique and machine learning model.
 DATA SET:		Gender Classification Dataset.
 
-
-https://www.kaggle.com/crowdflower/twitter-user-genderclassification
 
 
 1.	Feature Construction:
@@ -25,7 +24,7 @@ that better represent the underlying problem to predictive models, resulting in 
 2.	Description Of The Classifier:
 
 
-            It is a binary classification problem (yes/no/male/female/spam/unspam ), we have to classify the gender in the given data set. The machine learning model I will be using is Guassian Navie Bayes Algorithm, Logistic Regression, Random Forest. 
+      It is a binary classification problem (yes/no/male/female/spam/unspam ), we have to classify the gender in the given data set. The machine learning model I will be using is Guassian Navie Bayes Algorithm, Logistic Regression, Random Forest. 
 	Splitting the dataset in to training and test data the training data is used to train the model and the test data is to test the model show the accuracy of the model.
 	Logistic Regression: It is a technique in statistical analysis that attempts to predict the data value based on prior observation. A logistic regression algorithm looks at the relationship between a dependent variable and one or more dependent variables. It looks in to the relationship between gender and gender description.
 	Guassian Navie Bayes: Naive Bayes classifiers have worked quite well in many real-world situations, famously document classification and spam filtering. They require a small amount of training data to estimate the necessary parameters. It trains the model in given training set and estimate the necessary parameter for the given data be male or female. 
